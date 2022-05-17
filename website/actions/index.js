@@ -1,0 +1,36 @@
+export const ROOT_URL = process.env.NEXT_PUBLIC_SERVER_HTTP_URL;
+export const WSS_URL = process.env.NEXT_PUBLIC_SERVER_WSS_URL;
+
+export const SIGN_IN_OK = "SIGN_IN_OK";
+export const SIGN_OUT = "SIGN_OUT";
+export const PATCH_ACCOUNT = "PATCH_ACCOUNT";
+export const SET_LOGGED_IN_DATE_TIME = "SET_LOGGED_IN_DATE_TIME";
+
+export const FETCH_PROJECT = "FETCH_PROJECT";
+export const FETCH_PROJECTS = "FETCH_PROJECTS";
+
+export const UPDATE_PROJECT = "UPDATE_PROJECT";
+export const RESET_PROJECT = "RESET_PROJECT";
+
+export const GET_PEOPLE = "GET_PEOPLE";
+export const UPDATE_PERSON = "UPDATE_PERSON";
+export const DELETE_PERSON = "DELETE_PERSON";
+
+export const GET_CHATS = "GET_CHATS";
+export const UPDATE_CHAT = "UPDATE_CHAT";
+export const DELETE_CHAT = "DELETE_CHAT";
+
+export const GET_COLLABORATORS = "GET_COLLABORATORS";
+export const UPDATE_COLLABORATOR = "UPDATE_COLLABORATOR";
+export const DELETE_COLLABORATOR = "DELETE_COLLABORATOR";
+
+export const GET_INVITES = "GET_INVITES";
+export const UPDATE_INVITE = "UPDATE_INVITE";
+export const DELETE_INVITE = "DELETE_INVITE";
+
+export const GET_WEBHOOKS = "GET_WEBHOOKS";
+export const UPDATE_WEBHOOK = "UPDATE_WEBHOOK";
+export const DELETE_WEBHOOK = "DELETE_WEBHOOK";
+
+export const OPEN_EDIT_ACCOUNT = "OPEN_EDIT_ACCOUNT";
+export const CLOSE_EDIT_ACCOUNT = "CLOSE_EDIT_ACCOUNT";
